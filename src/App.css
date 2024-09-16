@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  font-family: GTUltra, sans-serif;
+}
+
+.grid {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 55px;
+  height: 55px;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.robot {
+  background-color: white;
+  font-weight: bold;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  font-family: 'GTUltra';
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1;
+  background-color: rgb(225 90 29 / 1);
+  border-radius: 3px;
+  border: none;
+}
+
+@font-face {
+  font-family: 'GTUltra';
+  src: url('./fonts/GTUltra-Light.otf') format('woff2'),
+       url('./fonts/GTUltra-Light.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
